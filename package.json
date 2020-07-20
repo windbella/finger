@@ -12,6 +12,7 @@
     "@types/react-dom": "^16.9.8",
     "@types/redux": "^3.6.0",
     "@types/redux-saga": "^0.10.5",
+    "fs-extra": "^9.0.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1",
@@ -21,7 +22,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build && node ./src/copy.js",
     "lint": "eslint . --ext js,jsx,ts,tsx",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
