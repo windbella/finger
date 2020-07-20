@@ -29,19 +29,22 @@ function Panel() {
 
     useEffect(() => {
         const timer = setInterval(() => {
-            if (selectData.touchDatas.length > 1
-                && selectData.selectedId === undefined
-                && (Date.now() - selectData.lastChangeTime) > 2000) {
-                setSelectData({
-                    ...selectData,
-                    selectedId: selectData.touchDatas[Math.floor(Math.random() * selectData.touchDatas.length)].id,
-                });
-            }
+            setSelectData((state) => {
+                if (state.touchDatas.length > 1
+                    && state.selectedId === undefined
+                    && (Date.now() - state.lastChangeTime) > 2000) {
+                    return {
+                        ...state,
+                        selectedId: state.touchDatas[Math.floor(Math.random() * state.touchDatas.length)].id,
+                    };
+                }
+                return state;
+            });
         }, 100);
         return () => {
             clearInterval(timer);
         };
-    });
+    }, []);
 
     const handleTouch = (e: React.TouchEvent<HTMLElement>) => {
         const { x: originX, y: originY } = e.currentTarget.getBoundingClientRect();

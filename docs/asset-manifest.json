@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/raffle/static/css/main.30df2ff0.chunk.css",
-    "main.js": "/raffle/static/js/main.29b17660.chunk.js",
-    "main.js.map": "/raffle/static/js/main.29b17660.chunk.js.map",
+    "main.css": "/raffle/static/css/main.bb86a8f7.chunk.css",
+    "main.js": "/raffle/static/js/main.86534cd2.chunk.js",
+    "main.js.map": "/raffle/static/js/main.86534cd2.chunk.js.map",
     "runtime-main.js": "/raffle/static/js/runtime-main.9dccebf8.js",
     "runtime-main.js.map": "/raffle/static/js/runtime-main.9dccebf8.js.map",
-    "static/js/2.102f9f4b.chunk.js": "/raffle/static/js/2.102f9f4b.chunk.js",
-    "static/js/2.102f9f4b.chunk.js.map": "/raffle/static/js/2.102f9f4b.chunk.js.map",
+    "static/js/2.b6f80edc.chunk.js": "/raffle/static/js/2.b6f80edc.chunk.js",
+    "static/js/2.b6f80edc.chunk.js.map": "/raffle/static/js/2.b6f80edc.chunk.js.map",
     "index.html": "/raffle/index.html",
-    "precache-manifest.d9e443586620dd819e4c6ede7a6e6c1b.js": "/raffle/precache-manifest.d9e443586620dd819e4c6ede7a6e6c1b.js",
+    "precache-manifest.068ec8691999fd72af574487f18a261b.js": "/raffle/precache-manifest.068ec8691999fd72af574487f18a261b.js",
     "service-worker.js": "/raffle/service-worker.js",
-    "static/css/main.30df2ff0.chunk.css.map": "/raffle/static/css/main.30df2ff0.chunk.css.map",
-    "static/js/2.102f9f4b.chunk.js.LICENSE.txt": "/raffle/static/js/2.102f9f4b.chunk.js.LICENSE.txt"
+    "static/css/main.bb86a8f7.chunk.css.map": "/raffle/static/css/main.bb86a8f7.chunk.css.map",
+    "static/js/2.b6f80edc.chunk.js.LICENSE.txt": "/raffle/static/js/2.b6f80edc.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.9dccebf8.js",
-    "static/js/2.102f9f4b.chunk.js",
-    "static/css/main.30df2ff0.chunk.css",
-    "static/js/main.29b17660.chunk.js"
+    "static/js/2.b6f80edc.chunk.js",
+    "static/css/main.bb86a8f7.chunk.css",
+    "static/js/main.86534cd2.chunk.js"
   ]
 }

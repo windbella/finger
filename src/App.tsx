@@ -1,9 +1,13 @@
 import React from 'react';
 import Panel from './components/Panel';
+import Help from './components/Help';
 
 function App() {
     return (
-        <Panel />
+        <>
+            <Help />
+            <Panel />
+        </>
     );
 }
 
