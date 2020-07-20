@@ -57,7 +57,7 @@ function Panel() {
         };
         if (selectData.touchDatas.length !== touchDatas.length) {
             newSelectData.lastChangeTime = Date.now();
-            if (touchDatas.length <= 1) {
+            if (touchDatas.length < 1) {
                 newSelectData.selectedId = undefined;
                 newSelectData.colorMap = {};
             }
