@@ -68,7 +68,6 @@ function Panel() {
     const getColor = (id: number): string => {
         if (!selectData.colorMap[id]) {
             selectData.colorMap[id] = `#${Math.floor(Math.random() * 16777215).toString(16).padStart(6, '0')}`;
-            console.log(selectData.colorMap[id]);
         }
         return selectData.colorMap[id];
     };
