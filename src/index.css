@@ -36,7 +36,9 @@ body {
 }
 
 .help .text {
-  color: #414141
+  color: #414141;
+  -webkit-user-select: none;
+  user-select: none;
 }
 
 .help .text.description {

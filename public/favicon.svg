@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="margin: auto; display: block;" width="200px" height="200px" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid">
+    <circle cx="50" cy="50" r="45" stroke-width="8" stroke="#45aee7" stroke-dasharray="70.68583470577035 70.68583470577035" fill="none" stroke-linecap="round" transform="rotate(112.395 50 50)" />
+    <circle cx="50" cy="50" r="30" fill="#45aee7" />
+</svg>
